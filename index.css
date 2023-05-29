@@ -1,0 +1,316 @@
+@media (min-width:320px) and (max-width:480px)
+{
+    .mydiv
+    {
+        background-color: greenyellow;
+        width: 98%;
+    }
+}
+
+body
+{
+    background-color: white;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'nexaFont';
+}
+
+.image-header
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background-color: lightgreen;
+    height: 100px;
+    width: 100%;
+    z-index: 100;
+}
+
+.image-logo
+{
+    height: 100%;
+    text-align: center;
+    float: left;
+    margin: 20px;
+}
+
+.link-nav
+{
+    float: right;
+    height: 100%;
+}
+
+.link-nav a
+{
+    color: #0a0a0a;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    text-decoration: none;
+    padding-top: 15%;
+    display: inline-block;
+}
+
+.link-nav a:hover 
+{
+    color: grey;
+}
+
+.background-img
+{
+    background-image: url(background-layer.png);
+    height:600px;
+    text-align:center;
+    padding-top:200px;
+    color:white;
+}
+
+.all-image
+{
+    position: absolute;
+    top: 78px;
+    width: 100%;
+}
+
+.quote
+{
+    color: whitesmoke;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 80px;
+    font-size: xx-large;
+    padding-left: 30px;
+}
+
+.background-img a
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-weight: initial;
+    font-size: x-large;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.background-img a:hover
+{
+    color: black;
+    text-decoration: none;
+}
+
+.about-title,.awards-title,.contact-title
+{
+    color:rgb(34, 90, 23);
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size:20px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.description,.vision-text,.mission-text
+{
+    font-size:15px;
+    font-family: 'nexaFont';
+    color:rgb(99, 99, 99);
+}
+
+.description
+{
+    text-align: center;
+    line-height: 30px;
+    font-family: 'nexaFont';
+    margin-bottom:30px;
+}
+
+.vision-and-mission
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.vision img
+{
+    width:400px;
+    height:300px;
+    margin:0px 100px 10px 100px;
+    padding-left: 100px;
+}
+
+.mission img
+{
+    padding-right: 150px;
+    width:400px;
+    height:300px;
+    margin:0px 100px 10px 100px;
+}
+
+.vision-title,.vision-text
+{
+    margin-left:100px;
+    font-family: 'nexaFont';
+    margin-bottom:20px;
+    padding-left: 100px;
+}
+
+.mission-title,.mission-text
+{
+    margin-left:100px;
+    font-family: 'nexaFont';
+    margin-bottom:20px;
+}
+
+#awards
+{
+    display:inline-block;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:100px;
+    margin-top: 1490px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 140px;
+    padding-right: 80px;
+    background-color: rgb(240, 240, 240);
+}
+
+.awards4
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#awards img
+{
+    height:200px;
+    width:280px;
+}
+
+.below-awards
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:grey;
+    font-size:12px;
+}
+
+.award1-title
+{
+    color:black;
+    font-size:15px;
+}
+
+#contact
+{
+    background-color: rgb(240, 240, 240);
+    display:flex;
+    justify-content: center;
+    padding:30px;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'nexaFont';
+    font-size:12px;
+    line-height: 25px;
+    overflow-x: hidden;
+}
+
+.contact-title
+{
+    position: absolute;
+    margin-top: 700px;
+}
+
+.location
+{
+    color:rgb(99, 99, 99);
+    margin-bottom:20px;
+    width:450px;
+    margin-left:50px;
+    float:right;
+    margin-top: 2000px;
+}
+
+.location-title
+{
+    color: mediumseagreen;
+    font-weight:1000;
+    font-size:15px;
+    margin-bottom:30px;
+}
+
+.location-name
+{
+    color: tomato;
+}
+
+.jotforms
+{
+    width:450px;
+    float: left;
+    margin-top: 1900px;
+}
+
+.location img
+{
+    height:20px;
+    width:20px;
+    margin-right:10px;
+}
+
+.contactus
+{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+#footer
+{
+    background-color:rgb(14, 94, 14);
+    color:white;
+    font-size:12px;
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 100px;
+    align-items: center;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+.footer
+{
+    background-color:rgb(14, 94, 14);
+    color:white;
+    font-size:12px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img
+{
+    height:20px;
+    width:20px;
+    margin-right:20px;
+}
+
+.icons 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.copy
+{
+    padding-right: 500px;
+}
